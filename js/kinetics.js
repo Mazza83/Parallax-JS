@@ -136,9 +136,9 @@
 
 			scroller.resetSpeed();
 
-			e.preventDefault();
-			e.stopPropagation();
-			return false;
+			//e.preventDefault();
+			//e.stopPropagation();
+			//return false;
 		}
 
 		function untap( e ){
@@ -146,9 +146,9 @@
 
 			scroller.release();
 
-			e.preventDefault();
-			e.stopPropagation();
-			return false;
+			//e.preventDefault();
+			//e.stopPropagation();
+			//return false;
 		}
 
 		function drag( e ){
